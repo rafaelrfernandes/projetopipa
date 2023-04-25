@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Revisão HTML</title>
+</head>
+<body>
+
+<h3> Tags de texto e suas funções </h3>
+	<table align="center" width="500" border="1">
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Características</th>
+				<th>Função</th>
+				<th>Observação</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>-->
+			<tr>
+				<td>\div\</td>
+				<td>Elemento em bloco</td>
+				<td>Fazer a divisão de textos distintos</td>
+				<td>Dentro desta TAG é possível ter quantas TAGS quiser pela característica de flexibilidade </td>
+			</tr>
+			<tr>
+				<td>\hx (do 1 ao 6)\</td>
+				<td>Elemento em bloco, ou seja, se comporta igual a TAG div</td>
+				<td>Serve para colocar título</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>\title\</td>
+				<td></td>
+				<td>Utilizada como título da aba do navegador</td>
+				<td></td>
+
+			</tr>
+			<tr>
+				<td>\p\</td>
+				<td>Aplicação de textos com parágrafos atuam por blocos.</td>
+				<td></td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td>\span\</td>
+				<td>Inline</td>
+				<td>Basicamente a mesma função do parágrafo, porém tag é repetida na linha de código abaixo.</td>
+				<td>Possível uso quando se tratar de informações sensíveis em um texto, as quais exigem mais atenção, logo maior facilidade de visualização.</td>	
+			</tr>
+				<tr>
+				<td>\b\</td>
+				<td>Inline</td>
+				<td>Negrito</td>
+				<td></td>
+		
+			</tr>
+			<tr>
+				<td>\u\</td>
+				<td>Inline</td>
+				<td>Sublinhado</td>
+				<td></td>
+			
+			</tr>
+			<tr>
+				<td>\i\</td>
+				<td>inline</td>
+				<td>Itálico</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>\br\</td>
+				<td>inline</td>
+				<td>Separar linhas de código com a TAG \span\ ou espaçamento entre linhas</td>
+				<td></td>
+			</tr>
+
+	</table>
+
+	<div> 
+		<h3>Tags de imagem, de link, atributos e suas funções</h3>
+			<table align="center" width="500" border="1">
+				<thead>
+					<tr>
+						<th>Tag</th>
+						<th>Características</th>
+						<th>Função</th>
+						<th>Observação</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>\img\ scr=""</td>
+						<td>inline (adicionar TAG \br\ para ter quebra de linha)</td>
+						<td>Adicionar imagens</td>
+						<td>Necessário colocar o atributo scr="" para informar a fonte</td>
+					</tr>
+					<tr>
+						<td>\a href="endereço">Link!<\a</td>
+						<td>Inline</td>
+						<td>Adicionar links</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>\target="_blank"</td>
+						<td>Inline</td>
+						<td>Abre o link em nova janela</td>
+						<td>Atributo</td>
+						</tr>
+					<tr>
+						<td>\table\</td>
+						<td>Abrir estrutura da tabela</td>
+						<td>Estrutura</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>\thead\</td>
+						<td>Título, primeira linha e colunas da tabela</td>
+						<td>Utilizar para definir variáveis</td>
+						<td>Necessário utilizar \tr\ e depois \th\</td>
+					</tr>
+						<td>\tbody\</td>
+						<td>Preencher as linhas colunas da tabela</td>
+						<td>Utilizar para preencher a tabela</td>
+						<td>Necessário utilizar \tr\ e depois \td\</td>
+					</tr>
+					<tr>
+						<td>align=""</td>
+						<td>Inline</td>
+						<td>Definir alinhamento</td>
+						<td>atributo</td>
+					</tr>
+					<tr>
+						<td>width=""</td>
+						<td>Inline</td>
+						<td>Definir largura</td>
+						<td>atributo</td>
+					</tr>
+					<tr>
+						<td>border""</td>
+						<td>Inline</td>
+						<td>Definir borda</td>
+						<td>atributo</td>
+					</tr>
+					<tr>
+						<td>height=""</td>
+						<td>Inline</td>
+						<td>Definir altura</td>
+						<td>atributo</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	<div>
+		<h3>Tags de formulário</h3>
+			<table align="center" width="500" border="1">
+				<thead>
+					<tr>
+						<th>Tag</th>
+						<th>Características</th>
+						<th>Função</th>
+						<th>Observação</th>
+					</tr>
+				</thead>
+					<tr>
+						<td>\form\</td>
+						<td>Estrutura do formulário</td>
+						<td>Fazer a base do formulário </td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>\input\</td>
+						<td>inline</td>
+						<td>Inserir caixa de ação</td>
+						<td>Pode utilizar type="text"; type="password"; type="submit" value="enviar"; type="button" value="enviar" </td>
+					</tr>
+					<tr>
+						<td>\textarea\</td>
+						<td>Ajustável</td>
+						<td>Inserir caixa de texto</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>\button\</td>
+						<td></td>
+						<td>Adicionar botão</td>
+						<td>Inserir o texto desejado. Ex.: Enviar</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>		
+			</table>
+	</div>
+</body>
+</html>
